@@ -595,3 +595,26 @@ flex: 1 1 300px;
    margin-right: 8px;
    color: var(--primary);
  }
+
+
+
+ .scroll-to-top{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: var(--primary);
+  border-radius: 50%;
+  border: none;
+  color: var(--light);
+  font-size: 24px;
+  padding: 10px 15px;
+  transition: all .5s ease;
+  cursor: pointer;
+  display: none;
+ }
+
+
+
+ .scroll-to-top:hover{
+  background-color: var(--primary-shade);
+ }
